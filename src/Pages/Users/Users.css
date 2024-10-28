@@ -1,0 +1,99 @@
+.container {
+    width: 50%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.user-heading{
+    font-size: 60px;
+    color: cyan;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.heading-dashboard {
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.user-nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.user-nav button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-nav button:hover {
+    background-color: #45a049;
+}
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-heading{
+    position: relative;
+    right: 25%;
+    color: aqua;
+}
+
+.users-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 50%;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 53%;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.yourbooking-heading{
+    color: aqua;
+}
+
+.your-heading{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
